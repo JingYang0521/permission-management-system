@@ -44,3 +44,39 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+# Init project
+> npx create-react-app my-project-name --template=typescript
+
+## Add Antd
+> yarn add antd
+
+## Add axios
+> yarn add axios
+
+## Add nprogress
+> yarn add nprogress @types/nprogress
+
+## Add router
+> yarn add react-router-dom @types/react-router-dom
+
+## add redux
+> yarn add redux react-redux @types/react-redux redux-thunk
+
+## add querystring-ts
+> yarn add querystring-ts
+
+## server
+> npm init --yes
+> tsc --init
+
+## cross-domain solution
+https://github.com/facebook/create-react-app/blob/main/docusaurus/docs/proxying-api-requests-in-development.md
+
+To tell the development server to proxy any unknown requests to your API server in development, add a proxy field to your package.json, for example:
+>  "proxy": "http://localhost:4000",
+This way, when you fetch('/api/todos') in development, the development server will recognize that it’s not a static asset, and will proxy your request to http://localhost:4000/api/todos as a fallback. The development server will only attempt to send requests without text/html in its Accept header to the proxy.
+
+
