@@ -36,13 +36,14 @@ export default class Login extends Component<IAppProps, IAppState> {
 
   login = (form: any) => {
     login(form.username, form.password).then((res: any) => {
-      const { code, msg, data } = res.data;
+      const { code, codeText, data } = res.data;
       if (code === 0) {
+        message.success(codeText);
         setLocalStorageItem('token', data.token);
-        window.location.href = '/'
-        message.success(msg);
+        window.location.href = '/home'
+        
       } else {
-        message.error(msg);
+        message.error(codeText);
       }
     });
   };

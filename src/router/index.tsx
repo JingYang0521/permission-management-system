@@ -1,13 +1,13 @@
 import react, { ReactNode, lazy } from 'react';
 import {
   UserOutlined,
-  TeamOutlined,
+  ApartmentOutlined,
   HomeOutlined,
 } from '@ant-design/icons';
 const Login = lazy(() => import('../pages/login/Login'));
-const Home = lazy(() => import('../pages/home/Home'));
-const UserList = lazy(() => import('../pages/users/UserList'));
-const AdminList = lazy(() => import('../pages/admins/AdminList'));
+const Home = lazy(() => import('../pages/home'));
+const UserList = lazy(() => import('../pages/users'));
+const RoleList = lazy(() => import('../pages/roles'));
 const Page404 = lazy(() => import('../pages/Page404'));
 export interface IRouter {
   title: string;
@@ -44,17 +44,17 @@ const leftRouters: IRouter[] = [
     ],
   },
   {
-    path: '/admin',
-    key: 'adminManagement',
-    title: 'Admin Management',
-    icon: <TeamOutlined />,
+    path: '/role',
+    key: 'roleManagement',
+    title: 'Role Management',
+    icon: <ApartmentOutlined />,
     children: [
       {
-        path: '/admin/list',
-        key: 'adminList',
+        path: '/role/list',
+        key: 'roleList',
         exact: true,
-        title: 'Admin List',
-        component: <AdminList />,
+        title: 'Role List',
+        component: <RoleList />,
       },
     ],
   },

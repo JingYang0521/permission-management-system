@@ -28,6 +28,7 @@ class AppLayout extends Component<IProps, IState> {
         </Content>
       );
     }
+    
     return (
       <Layout>
         <Navigation />
@@ -38,7 +39,7 @@ class AppLayout extends Component<IProps, IState> {
             <Content
               className="site-layout-background"
               style={{
-                padding: 24,
+                // padding: 24,
                 margin: 0,
                 minHeight: 280,
               }}

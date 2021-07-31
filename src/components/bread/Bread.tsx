@@ -1,4 +1,4 @@
-import React, { Component, ReactNode } from 'react';
+import React, { Component, Fragment, ReactNode } from 'react';
 import { Breadcrumb } from 'antd';
 import { matchPath, RouteComponentProps, withRouter } from 'react-router-dom';
 import leftRouters, { IRouter } from '../../router';
@@ -14,10 +14,10 @@ class Bread extends Component<IProps, IState> {
           let match = matchPath(path, { path: r.path });
           if (match) {
             return (
-              <>
+              <Fragment key={r.key}>
                 <Breadcrumb.Item>{r.title}</Breadcrumb.Item>
                 {this.generateBread(r.children)}
-              </>
+              </Fragment>
             );
           } else {
             return null;

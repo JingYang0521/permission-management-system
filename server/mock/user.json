@@ -1,0 +1,46 @@
+[
+  {
+    "id": "0eaf405b-bea8-449d-bad0-2a86b0f89cc6",
+    "name": "user 1",
+    "phone": "5145678765",
+    "gender": "1",
+    "email": "hunter.brooks@example.com",
+    "password": ""
+  },
+  {
+    "id": "8413b56c-ee29-4364-b3cd-92159c6e164c",
+    "name": "user 2",
+    "phone": "438567657",
+    "gender": "1",
+    "email": "linde.fykse@example.com",
+    "password": ""
+  },
+  {
+    "id": "daacd6d6-19c4-4762-bd26-c3364b21df5d",
+    "name": "19960776106",
+    "phone": "19960776106",
+    "gender": "0",
+    "email": "julia.saari@example.com",
+    "password": "94ee30c7123b13af3030e19f"
+  },
+  {
+    "id": "d81ff152-4c99-4348-b3c7-291afa20144d",
+    "name": "user 3",
+    "phone": "12",
+    "gender": 1,
+    "password": "92037dd27a515f899ef82201",
+    "type": 1,
+    "email": "yhtmanager@ww.com",
+    "createTime": "2021-07-29T10:46:19.064Z"
+  },
+  {
+    "id": "5aad7919-cc34-467d-a68d-6885f9b26ad5",
+    "name": "user 4",
+    "phone": "111",
+    "gender": 2,
+    "password": "546d98b3eed073c3b279be51",
+    "type": 1,
+    "email": "111@11.com",
+    "createTime": "2021-07-29T10:48:23.824Z"
+  }
+]

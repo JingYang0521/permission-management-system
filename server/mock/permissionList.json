@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Home",
+    "id": "home-1",
+    "isMenu": 0
+  },
+  {
+    "title": "User management",
+    "id": "user-1",
+    "isMenu": 1
+  },
+  {
+    "title": "User list",
+    "id": "user-1-1",
+    "parentId": "user-1",
+    "isMenu": 1
+  },
+  {
+    "title": "Delete User list",
+    "id": "user-1-1-1",
+    "parentId": "user-1-1",
+    "isMenu": 0
+  },
+  {
+    "title": "Update User list",
+    "id": "user-1-1-2",
+    "parentId": "user-1-1",
+    "isMenu": 0
+  },
+  {
+    "title": "Add User list",
+    "id": "user-1-1-3",
+    "parentId": "user-1-1",
+    "isMenu": 0
+  },
+  {
+    "title": "Role management",
+    "id": "role-1",
+    "isMenu": 1
+  },
+  {
+    "title": "Role list",
+    "id": "role-1-1",
+    "parentId": "role-1",
+    "isMenu": 1
+  },
+  {
+    "title": "Delete Role list",
+    "id": "role-1-1-1",
+    "parentId": "role-1-1",
+    "isMenu": 0
+  },
+  {
+    "title": "Update Role list",
+    "id": "role-1-1-2",
+    "parentId": "role-1-1",
+    "isMenu": 0
+  },
+  {
+    "title": "Add Role list",
+    "id": "role-1-1-3",
+    "parentId": "role-1-1",
+    "isMenu": 0
+  }
+]

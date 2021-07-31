@@ -45,7 +45,8 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-
+# address
+> http://127.0.0.1:3000/login
 
 # Init project
 > npx create-react-app my-project-name --template=typescript
@@ -71,6 +72,13 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## server
 > npm init --yes
 > tsc --init
+> yarn add @types/express @types/node  -D
+> yarn add @types/body-parser
+> yarn add @types/uuid
+> yarn add @types/express-session
+> yarn add @types/blueimp-md5
+
+> yarn add express body-parser uuid express-session blueimp-md5
 
 ## cross-domain solution
 https://github.com/facebook/create-react-app/blob/main/docusaurus/docs/proxying-api-requests-in-development.md
