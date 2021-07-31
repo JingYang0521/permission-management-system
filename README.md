@@ -1,3 +1,30 @@
+# Mini permission management system
+## Start the project
+### Front-end:
+> yarn
+> yarn start
+
+### Server:
+enter server folder
+> node server
+
+## Raleted Tech
+### Front-end
+* React 
+* React router
+* Ant design
+* Axios
+* Typescript
+* ES6
+
+### Server
+* Node.js
+* Express
+* CommonJS
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

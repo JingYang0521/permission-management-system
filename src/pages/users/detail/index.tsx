@@ -101,7 +101,7 @@ export default class Detail extends Component<IProps, IState> {
             <Form.Item
               name="gender"
               label="Gender"
-              initialValue={Number(initialValues?.gender)}
+              initialValue={Number(initialValues?.gender) || null}
               rules={[{ required: true }]}
             >
               <Select placeholder="Select a option" allowClear>
