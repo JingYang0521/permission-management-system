@@ -6,7 +6,9 @@
 #### start the project 
 > yarn start
 Open [http://127.0.0.1:3000/login](http://127.0.0.1:3000/login) to view it in the browser.
-
+#### test account:
+account: 12
+password: 1212
 
 ### Server:
 #### enter server folder to start the server
